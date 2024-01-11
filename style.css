@@ -8,6 +8,24 @@ header {
     border-radius: 191px;
 }
 
+
+.frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161616;
+    margin: 38px 46px auto 46px;
+}
+
+
+.frame .left, .frame .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1; 
+}
+
+
 #logo {
     margin-left: 46px;
 }
